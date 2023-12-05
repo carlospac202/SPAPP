@@ -1,4 +1,1 @@
-spark-submit --master yarn --deploy-mode cluster \
---py-files spapp_lib.zip \
---files conf/spapp.conf,conf/spark.conf,log4j.properties \
-spapp_main.py qa 2023-09-28
+spark-submit spapp_main.py local 2023-12-04
